@@ -6,7 +6,7 @@ sudo pacman -Syyuu --noconfirm
 # Prerequirements
 sudo pacman -S --noconfirm neovim curl wget tar bzip2 git base-devel\
                         yarn npm \
-						re2c gd oniguruma postgresql-libs libzip libxml2 autoconf automake bison gettext krb5 libedit libjpeg libpng libzip openssl pkg-config zlib 
+			re2c gd oniguruma postgresql-libs libzip libxml2 autoconf automake bison gettext krb5 libedit libjpeg libpng libzip openssl pkg-config zlib \
 						
 ###  Installing and Enabling Printing Service
 ##  Installing Printing Service
@@ -86,3 +86,7 @@ bash <(curl -s https://raw.githubusercontent.com/lunarvim/lunarvim/master/utils/
 
 ### Rust alternatives
 cargo install exa bat procs sd starship ripgrep tokei hyperfine ytop tealdeer bandwhich grex rmesg zoxide 
+
+### Some tools
+yay -S docker gdb
+sudo usermod -aG docker $USER
