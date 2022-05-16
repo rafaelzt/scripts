@@ -19,7 +19,7 @@ export PATH=/home/rafael/.local/bin:$PATH
 alias ls="exa -lhg --icons"
 alias cat="bat"
 
-# Key Bindings
+# Key Bindings (showkey -a)
 bindkey "\eOA"    up-line-or-history
 bindkey "\eOB"    down-line-or-history
 bindkey "\eOC"    forward-char
